@@ -1,4 +1,4 @@
-package pe.com.prueba;
+package pe.collection.com.prueba;
 
 /**
  * Definición de la Interfaz Automovil:

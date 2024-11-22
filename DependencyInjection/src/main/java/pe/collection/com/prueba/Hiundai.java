@@ -1,4 +1,4 @@
-package pe.com.prueba;
+package pe.collection.com.prueba;
 
 // Define una clase pública llamada Hiundai
 // Indica que la clase Hiundai está implementando la interfaz Automovil. Esto significa que Hiundai debe proporcionar una implementación para todos los métodos abstractos definidos en Automovil.

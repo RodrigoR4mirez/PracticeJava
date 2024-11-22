@@ -1,7 +1,6 @@
-package pe.com.prueba;
+package pe.collection.com.prueba;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration

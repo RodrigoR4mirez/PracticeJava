@@ -1,4 +1,4 @@
-package pe.com.prueba;
+package pe.collection.com.prueba;
 
 /**
  * El polimorfismo permite que una interfaz o clase base sea utilizada para referirse a objetos de diferentes clases derivadas, y que estos objetos puedan ser tratados de manera uniforme aunque tengan implementaciones diferentes. Aquí está un resumen de por qué el código muestra polimorfismo:

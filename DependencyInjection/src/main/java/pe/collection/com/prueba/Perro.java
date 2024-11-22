@@ -1,6 +1,4 @@
-package pe.com.prueba;
-
-import org.springframework.stereotype.Component;
+package pe.collection.com.prueba;
 
 
 public class Perro implements Animal {

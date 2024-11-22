@@ -15,4 +15,8 @@ public class Contenedor <T>{
     public void setT(T t) {
         this.t = t;
     }
+
+    public <T> void print(T t){
+        System.out.println("HOLA: "+ t);
+    }
 }

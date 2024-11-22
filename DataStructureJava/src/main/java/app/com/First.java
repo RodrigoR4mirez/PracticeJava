@@ -4,6 +4,7 @@ package app.com;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -14,17 +15,27 @@ public class First
 
     public static void main(String[] args) {
 
-        String[] str = {"A", "B",  "D", "E","C", "F", "G", "H"};
-        List<String> letters = List.of(str);
-        List<String> letters2 = Arrays.asList(str);
+        List<String> lis = Arrays.asList("Carlos", "Ana", "Beatriz", "David");
 
-        List<String> arrayLetters = new ArrayList<>(Arrays.asList(str));
-
-        arrayLetters.removeIf(x -> x.equals("H") || x.equals("G"));
-        arrayLetters.sort(null);
-        arrayLetters.forEach(System.out::println);
+        // Usar comparador por longitud de las cadenas y en orden descendente
+lis.sort(Comparator.comparingInt(String::length).reversed());
+        lis.forEach(System.out::println);
 
     }
+
+//    public static void main(String[] args) {
+//
+//        String[] str = {"A", "B",  "D", "E","C", "F", "G", "H"};
+//        List<String> letters = List.of(str);
+//        List<String> letters2 = Arrays.asList(str);
+//
+//        List<String> arrayLetters = new ArrayList<>(Arrays.asList(str));
+//
+//        arrayLetters.removeIf(x -> x.equals("H") || x.equals("G"));
+//        arrayLetters.sort(null);
+//        arrayLetters.forEach(System.out::println);
+//
+//    }
 
 
 //    /**

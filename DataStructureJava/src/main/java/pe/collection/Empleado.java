@@ -1,6 +1,6 @@
 package pe.collection;
 
-public class Empleado implements Comparable<Empleado>{
+ class Empleado implements Comparable<Empleado>{
 
     private String nombre;
 
